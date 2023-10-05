@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{90B4F32E-4382-1DDB-AB64-B2B50A0E81F1}",
+	"EngineAssociation": "{5EE081B1-4EF6-D9F2-B70E-88BD61E461CE}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "TicTacClock",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
