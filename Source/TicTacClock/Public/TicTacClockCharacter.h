@@ -8,7 +8,7 @@
 #include "TicTacClockCharacter.generated.h"
 
 
-UCLASS(UCameraComponent)
+class UCameraComponent;
 
 UCLASS(config=Game)
 class ATicTacClockCharacter : public ACharacter

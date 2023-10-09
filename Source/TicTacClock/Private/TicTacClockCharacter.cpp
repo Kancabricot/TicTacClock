@@ -42,8 +42,7 @@ void ATicTacClockCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
-	ConstructorHelpers::FClassFinder<AActor> bpcam(TEXT("/Game/Blueprints/BP_Cam"));
-	AActor* cam = UGameplayStatics::GetActorOfClass(GetWorld(),bpcam.Class);
+	
 
 	//UE_LOG(LogTemp, Warning, TEXT("Hello World"));
 	
